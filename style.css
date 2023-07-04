@@ -1,0 +1,64 @@
+h1, h2, h3{
+    text-transform: uppercase;
+}
+*{
+    font-family: "Oswald";
+    background-color: rgb(238, 210, 167);
+}
+
+#header{
+    background-color: rgb(233, 169, 146);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#nameAndTitle{
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    margin-left: 29%;
+}
+
+#nameAndTitle h1, h2{
+    margin: 0;
+}
+
+#contact{
+    list-style-type: none;
+    padding: 3%;
+}
+
+#contact i{
+    text-align: left;
+    color: rgb(233, 169, 146);
+    padding: 1%;
+}
+
+#links{
+    list-style-type: none;
+    padding: 3%;
+}
+
+#links i{
+    text-align: left;
+    color: rgb(233, 169, 146);
+    padding: 1%;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 19% 60% 19%;
+    grid-column-gap: 1%;
+}
+
+#sidebar, #content, #future{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card{
+    border: 1px solid rgba(128, 128, 128, 0.466);
+    border-radius: 15px;
+    padding: 3%;
+}
